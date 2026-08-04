@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DE828EA-E271-45E3-B1BD-DE31E5B84A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBranch.StockTransfer.API", "src\MultiBranch.StockTransfer.API\MultiBranch.StockTransfer.API.csproj", "{BAAD1B96-C9A7-4ECC-B21B-FF10F6F57D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBranch.StockTransfer.Application", "src\MultiBranch.StockTransfer.Application\MultiBranch.StockTransfer.Application.csproj", "{3A0F7BFA-A218-48AE-BBD0-3CEA0DA0AE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBranch.StockTransfer.Domain", "src\MultiBranch.StockTransfer.Domain\MultiBranch.StockTransfer.Domain.csproj", "{8045AB23-8DA4-41EF-86C7-5C98541BB772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBranch.StockTransfer.Infrastructure", "src\MultiBranch.StockTransfer.Infrastructure\MultiBranch.StockTransfer.Infrastructure.csproj", "{12018D88-C1C9-440C-BCAA-7016D97C9E41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAAD1B96-C9A7-4ECC-B21B-FF10F6F57D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAD1B96-C9A7-4ECC-B21B-FF10F6F57D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAD1B96-C9A7-4ECC-B21B-FF10F6F57D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAD1B96-C9A7-4ECC-B21B-FF10F6F57D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0F7BFA-A218-48AE-BBD0-3CEA0DA0AE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0F7BFA-A218-48AE-BBD0-3CEA0DA0AE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0F7BFA-A218-48AE-BBD0-3CEA0DA0AE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0F7BFA-A218-48AE-BBD0-3CEA0DA0AE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8045AB23-8DA4-41EF-86C7-5C98541BB772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8045AB23-8DA4-41EF-86C7-5C98541BB772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8045AB23-8DA4-41EF-86C7-5C98541BB772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8045AB23-8DA4-41EF-86C7-5C98541BB772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12018D88-C1C9-440C-BCAA-7016D97C9E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12018D88-C1C9-440C-BCAA-7016D97C9E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12018D88-C1C9-440C-BCAA-7016D97C9E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12018D88-C1C9-440C-BCAA-7016D97C9E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAAD1B96-C9A7-4ECC-B21B-FF10F6F57D86} = {4DE828EA-E271-45E3-B1BD-DE31E5B84A04}
+		{3A0F7BFA-A218-48AE-BBD0-3CEA0DA0AE04} = {4DE828EA-E271-45E3-B1BD-DE31E5B84A04}
+		{8045AB23-8DA4-41EF-86C7-5C98541BB772} = {4DE828EA-E271-45E3-B1BD-DE31E5B84A04}
+		{12018D88-C1C9-440C-BCAA-7016D97C9E41} = {4DE828EA-E271-45E3-B1BD-DE31E5B84A04}
+	EndGlobalSection
+EndGlobal

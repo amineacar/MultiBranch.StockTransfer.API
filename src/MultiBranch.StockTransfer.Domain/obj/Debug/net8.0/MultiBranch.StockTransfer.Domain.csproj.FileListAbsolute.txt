@@ -1,0 +1,11 @@
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.AssemblyInfo.cs
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\bin\Debug\net8.0\MultiBranch.StockTransfer.Domain.deps.json
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\bin\Debug\net8.0\MultiBranch.StockTransfer.Domain.dll
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\bin\Debug\net8.0\MultiBranch.StockTransfer.Domain.pdb
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.dll
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\refint\MultiBranch.StockTransfer.Domain.dll
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.pdb
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\ref\MultiBranch.StockTransfer.Domain.dll
