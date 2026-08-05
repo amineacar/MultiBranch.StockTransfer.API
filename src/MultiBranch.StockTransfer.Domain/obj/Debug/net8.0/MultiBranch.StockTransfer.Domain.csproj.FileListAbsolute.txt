@@ -9,3 +9,4 @@ C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Doma
 C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\refint\MultiBranch.StockTransfer.Domain.dll
 C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.pdb
 C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\ref\MultiBranch.StockTransfer.Domain.dll
+C:\Users\LENOVO\MultiBranch.StockTransfer.API\src\MultiBranch.StockTransfer.Domain\obj\Debug\net8.0\MultiBranch.StockTransfer.Domain.sourcelink.json

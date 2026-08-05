@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiBranch.StockTransfer.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc9b131cf795a2a8bc95e6bbd3b5ed8ddcb2d859")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiBranch.StockTransfer.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiBranch.StockTransfer.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
