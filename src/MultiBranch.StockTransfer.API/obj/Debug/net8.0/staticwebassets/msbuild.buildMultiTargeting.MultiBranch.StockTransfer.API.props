@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\MultiBranch.StockTransfer.API.props" />
-</Project>
