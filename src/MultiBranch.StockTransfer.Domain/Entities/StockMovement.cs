@@ -1,3 +1,4 @@
+using MultiBranch.StockTransfer.Domain.Enums;
 namespace MultiBranch.StockTransfer.Domain.Entities;
 
 public class StockMovement : BaseEntity
@@ -10,6 +11,8 @@ public class StockMovement : BaseEntity
 
     public Guid EmployeeId { get; set; }
     public Employee Employee { get; set; } = null!;
+    public Guid? TransferId { get; set; }
+    public Transfer? Transfer { get; set; }
 
     public int Quantity { get; set; }
     public StockMovementType MovementType { get; set; }
