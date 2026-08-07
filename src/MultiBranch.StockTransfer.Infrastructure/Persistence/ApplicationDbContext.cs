@@ -14,7 +14,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<Shelf> Shelves => Set<Shelf>();
     public DbSet<ShelfStock> ShelfStocks => Set<ShelfStock>();
     public DbSet<StockMovement> StockMovements => Set<StockMovement>();
-    public DbSet<Store> Stores =>Set<Store>();
+    public DbSet<Store> Stores =>  Set<Store>();
     public DbSet<Supplier> Suppliers => Set<Supplier>();
     public DbSet<Transfer> Transfers => Set<Transfer>();
     public DbSet<TransferItem> TransferItems => Set<TransferItem>();

@@ -9,4 +9,7 @@ public class Employee : BaseEntity
 
     public Guid StoreId { get; set; }
     public Store Store { get; set; } = null!;
+    public ICollection<StockMovement> StockMovements { get; set; } = new List<StockMovement>();
+
+public ICollection<Transfer> Transfers { get; set; } = new List<Transfer>();
 }
