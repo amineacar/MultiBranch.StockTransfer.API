@@ -8,4 +8,7 @@ public class Store : BaseEntity
 
     public ICollection<Employee> Employees { get; set; } = new List<Employee>();
     public ICollection<Shelf> Shelves { get; set; } = new List<Shelf>();
+
+    public ICollection<Transfer> TransfersFrom { get; set; } = new List<Transfer>();
+    public ICollection<Transfer> TransfersTo { get; set; } = new List<Transfer>();  
 }

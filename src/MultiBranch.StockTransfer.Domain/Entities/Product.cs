@@ -13,4 +13,5 @@ public class Product : BaseEntity
     public Supplier Supplier { get; set; } = null!;
 
     public ICollection<ShelfStock> ShelfStocks { get; set; } = new List<ShelfStock>();
+    public ICollection<StockMovement> StockMovements { get; set; } = new List<StockMovement>();
 }

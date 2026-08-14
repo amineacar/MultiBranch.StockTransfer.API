@@ -9,4 +9,5 @@ public class ShelfStock : BaseEntity
     public Product Product { get; set; } = null!;
 
     public int Quantity { get; set; }
+    public ICollection<StockMovement> StockMovements { get; set; } = new List<StockMovement>();
 }
