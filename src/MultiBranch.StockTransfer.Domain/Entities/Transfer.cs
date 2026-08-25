@@ -13,7 +13,7 @@ public class Transfer : BaseEntity
     public Guid EmployeeId { get; set; }
     public Employee Employee { get; set; } = null!;
 
-    public TransferStatus Status { get; set; } = TransferStatus.Pending;
+    public TransferStatus Status { get; set; } = TransferStatus.InTransit;
 
     public ICollection<TransferItem> TransferItems { get; set; } = new List<TransferItem>();
 }
