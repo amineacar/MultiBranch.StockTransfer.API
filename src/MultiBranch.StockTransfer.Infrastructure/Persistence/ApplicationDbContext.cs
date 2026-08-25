@@ -1,9 +1,13 @@
+using MultiBranch.StockTransfer.Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using MultiBranch.StockTransfer.Domain.Entities;
+
+
 
 namespace MultiBranch.StockTransfer.Infrastructure.Persistence;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : DbContext, IApplicationDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
@@ -25,5 +29,10 @@ public class ApplicationDbContext : DbContext
         base.OnModelCreating(modelBuilder);
        
     }
+
+    public async Task<IDbContextTransaction> BeginTransactionAsync()
+{
+    return await Database.BeginTransactionAsync();
+}
 
 }
